@@ -11,10 +11,11 @@ namespace Guess4MysteruNumber
             //If the user guesses the number, display “You won"; otherwise,
             //display “You lost". (To make sure the program is behaving correctly,
             //you can display the secret number on the console first.)
+            
+            
             var random = new Random();
             var randomnumber = random.Next(1, 10);
-           
-           
+            
             var numberOfGuesses = 4;
 
             for (var i = 0; i <= 3; i++)
